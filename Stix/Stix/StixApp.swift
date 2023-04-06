@@ -6,9 +6,16 @@
 //
 
 import SwiftUI
+import FirebaseCore
+
 
 @main
 struct StixApp: App {
+    
+    init() {
+        FirebaseApp.configure()
+        print("*** Firebase configured")
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
