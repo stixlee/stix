@@ -101,11 +101,7 @@
 		9001D33F29DF4BF900959C6D /* Stix */ = {
 			isa = PBXGroup;
 			children = (
-				9001D34029DF4BF900959C6D /* StixApp.swift */,
-				9001D34229DF4BF900959C6D /* ContentView.swift */,
-				9001D34429DF4BFA00959C6D /* Assets.xcassets */,
-				9001D37029DF527A00959C6D /* GoogleService-Info.plist */,
-				9001D34629DF4BFA00959C6D /* Stix.entitlements */,
+				9001D37229DF719500959C6D /* App Common */,
 				9001D34729DF4BFA00959C6D /* Preview Content */,
 			);
 			path = Stix;
@@ -134,6 +130,18 @@
 				9001D35E29DF4BFA00959C6D /* StixUITestsLaunchTests.swift */,
 			);
 			path = StixUITests;
+			sourceTree = "<group>";
+		};
+		9001D37229DF719500959C6D /* App Common */ = {
+			isa = PBXGroup;
+			children = (
+				9001D34029DF4BF900959C6D /* StixApp.swift */,
+				9001D34229DF4BF900959C6D /* ContentView.swift */,
+				9001D34429DF4BFA00959C6D /* Assets.xcassets */,
+				9001D37029DF527A00959C6D /* GoogleService-Info.plist */,
+				9001D34629DF4BFA00959C6D /* Stix.entitlements */,
+			);
+			name = "App Common";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
