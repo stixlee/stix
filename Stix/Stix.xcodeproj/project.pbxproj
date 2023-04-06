@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9001D34129DF4BF900959C6D /* StixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D34029DF4BF900959C6D /* StixApp.swift */; };
+		9001D34329DF4BF900959C6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D34229DF4BF900959C6D /* ContentView.swift */; };
+		9001D34529DF4BFA00959C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9001D34429DF4BFA00959C6D /* Assets.xcassets */; };
+		9001D34929DF4BFA00959C6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9001D34829DF4BFA00959C6D /* Preview Assets.xcassets */; };
+		9001D35329DF4BFA00959C6D /* StixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D35229DF4BFA00959C6D /* StixTests.swift */; };
+		9001D35D29DF4BFA00959C6D /* StixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D35C29DF4BFA00959C6D /* StixUITests.swift */; };
+		9001D35F29DF4BFA00959C6D /* StixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D35E29DF4BFA00959C6D /* StixUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9001D34F29DF4BFA00959C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9001D33529DF4BF900959C6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9001D33C29DF4BF900959C6D;
+			remoteInfo = Stix;
+		};
+		9001D35929DF4BFA00959C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9001D33529DF4BF900959C6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9001D33C29DF4BF900959C6D;
+			remoteInfo = Stix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9001D33D29DF4BF900959C6D /* Stix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9001D34029DF4BF900959C6D /* StixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StixApp.swift; sourceTree = "<group>"; };
+		9001D34229DF4BF900959C6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9001D34429DF4BFA00959C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9001D34629DF4BFA00959C6D /* Stix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stix.entitlements; sourceTree = "<group>"; };
+		9001D34829DF4BFA00959C6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9001D34E29DF4BFA00959C6D /* StixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9001D35229DF4BFA00959C6D /* StixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StixTests.swift; sourceTree = "<group>"; };
+		9001D35829DF4BFA00959C6D /* StixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9001D35C29DF4BFA00959C6D /* StixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StixUITests.swift; sourceTree = "<group>"; };
+		9001D35E29DF4BFA00959C6D /* StixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9001D33A29DF4BF900959C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001D34B29DF4BFA00959C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001D35529DF4BFA00959C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9001D33429DF4BF900959C6D = {
+			isa = PBXGroup;
+			children = (
+				9001D33F29DF4BF900959C6D /* Stix */,
+				9001D35129DF4BFA00959C6D /* StixTests */,
+				9001D35B29DF4BFA00959C6D /* StixUITests */,
+				9001D33E29DF4BF900959C6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9001D33E29DF4BF900959C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9001D33D29DF4BF900959C6D /* Stix.app */,
+				9001D34E29DF4BFA00959C6D /* StixTests.xctest */,
+				9001D35829DF4BFA00959C6D /* StixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9001D33F29DF4BF900959C6D /* Stix */ = {
+			isa = PBXGroup;
+			children = (
+				9001D34029DF4BF900959C6D /* StixApp.swift */,
+				9001D34229DF4BF900959C6D /* ContentView.swift */,
+				9001D34429DF4BFA00959C6D /* Assets.xcassets */,
+				9001D34629DF4BFA00959C6D /* Stix.entitlements */,
+				9001D34729DF4BFA00959C6D /* Preview Content */,
+			);
+			path = Stix;
+			sourceTree = "<group>";
+		};
+		9001D34729DF4BFA00959C6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9001D34829DF4BFA00959C6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9001D35129DF4BFA00959C6D /* StixTests */ = {
+			isa = PBXGroup;
+			children = (
+				9001D35229DF4BFA00959C6D /* StixTests.swift */,
+			);
+			path = StixTests;
+			sourceTree = "<group>";
+		};
+		9001D35B29DF4BFA00959C6D /* StixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9001D35C29DF4BFA00959C6D /* StixUITests.swift */,
+				9001D35E29DF4BFA00959C6D /* StixUITestsLaunchTests.swift */,
+			);
+			path = StixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9001D33C29DF4BF900959C6D /* Stix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9001D36229DF4BFA00959C6D /* Build configuration list for PBXNativeTarget "Stix" */;
+			buildPhases = (
+				9001D33929DF4BF900959C6D /* Sources */,
+				9001D33A29DF4BF900959C6D /* Frameworks */,
+				9001D33B29DF4BF900959C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stix;
+			productName = Stix;
+			productReference = 9001D33D29DF4BF900959C6D /* Stix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9001D34D29DF4BFA00959C6D /* StixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9001D36529DF4BFA00959C6D /* Build configuration list for PBXNativeTarget "StixTests" */;
+			buildPhases = (
+				9001D34A29DF4BFA00959C6D /* Sources */,
+				9001D34B29DF4BFA00959C6D /* Frameworks */,
+				9001D34C29DF4BFA00959C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9001D35029DF4BFA00959C6D /* PBXTargetDependency */,
+			);
+			name = StixTests;
+			productName = StixTests;
+			productReference = 9001D34E29DF4BFA00959C6D /* StixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9001D35729DF4BFA00959C6D /* StixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9001D36829DF4BFA00959C6D /* Build configuration list for PBXNativeTarget "StixUITests" */;
+			buildPhases = (
+				9001D35429DF4BFA00959C6D /* Sources */,
+				9001D35529DF4BFA00959C6D /* Frameworks */,
+				9001D35629DF4BFA00959C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9001D35A29DF4BFA00959C6D /* PBXTargetDependency */,
+			);
+			name = StixUITests;
+			productName = StixUITests;
+			productReference = 9001D35829DF4BFA00959C6D /* StixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9001D33529DF4BF900959C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9001D33C29DF4BF900959C6D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					9001D34D29DF4BFA00959C6D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 9001D33C29DF4BF900959C6D;
+					};
+					9001D35729DF4BFA00959C6D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 9001D33C29DF4BF900959C6D;
+					};
+				};
+			};
+			buildConfigurationList = 9001D33829DF4BF900959C6D /* Build configuration list for PBXProject "Stix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9001D33429DF4BF900959C6D;
+			productRefGroup = 9001D33E29DF4BF900959C6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9001D33C29DF4BF900959C6D /* Stix */,
+				9001D34D29DF4BFA00959C6D /* StixTests */,
+				9001D35729DF4BFA00959C6D /* StixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9001D33B29DF4BF900959C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001D34929DF4BFA00959C6D /* Preview Assets.xcassets in Resources */,
+				9001D34529DF4BFA00959C6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001D34C29DF4BFA00959C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001D35629DF4BFA00959C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9001D33929DF4BF900959C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001D34329DF4BF900959C6D /* ContentView.swift in Sources */,
+				9001D34129DF4BF900959C6D /* StixApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001D34A29DF4BFA00959C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001D35329DF4BFA00959C6D /* StixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9001D35429DF4BFA00959C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001D35F29DF4BFA00959C6D /* StixUITestsLaunchTests.swift in Sources */,
+				9001D35D29DF4BFA00959C6D /* StixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9001D35029DF4BFA00959C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9001D33C29DF4BF900959C6D /* Stix */;
+			targetProxy = 9001D34F29DF4BFA00959C6D /* PBXContainerItemProxy */;
+		};
+		9001D35A29DF4BFA00959C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9001D33C29DF4BF900959C6D /* Stix */;
+			targetProxy = 9001D35929DF4BFA00959C6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9001D36029DF4BFA00959C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9001D36129DF4BFA00959C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9001D36329DF4BFA00959C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stix/Stix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stix/Preview Content\"";
+				DEVELOPMENT_TEAM = TWJ263959T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stixlee.Stix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9001D36429DF4BFA00959C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stix/Stix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stix/Preview Content\"";
+				DEVELOPMENT_TEAM = TWJ263959T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stixlee.Stix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9001D36629DF4BFA00959C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWJ263959T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stixlee.StixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stix";
+			};
+			name = Debug;
+		};
+		9001D36729DF4BFA00959C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWJ263959T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stixlee.StixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stix";
+			};
+			name = Release;
+		};
+		9001D36929DF4BFA00959C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWJ263959T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stixlee.StixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stix;
+			};
+			name = Debug;
+		};
+		9001D36A29DF4BFA00959C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWJ263959T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stixlee.StixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9001D33829DF4BF900959C6D /* Build configuration list for PBXProject "Stix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9001D36029DF4BFA00959C6D /* Debug */,
+				9001D36129DF4BFA00959C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9001D36229DF4BFA00959C6D /* Build configuration list for PBXNativeTarget "Stix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9001D36329DF4BFA00959C6D /* Debug */,
+				9001D36429DF4BFA00959C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9001D36529DF4BFA00959C6D /* Build configuration list for PBXNativeTarget "StixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9001D36629DF4BFA00959C6D /* Debug */,
+				9001D36729DF4BFA00959C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9001D36829DF4BFA00959C6D /* Build configuration list for PBXNativeTarget "StixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9001D36929DF4BFA00959C6D /* Debug */,
+				9001D36A29DF4BFA00959C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9001D33529DF4BF900959C6D /* Project object */;
+}
