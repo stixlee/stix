@@ -17,6 +17,9 @@
 		9001D36D29DF516000959C6D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9001D36C29DF516000959C6D /* FirebaseAnalytics */; };
 		9001D36F29DF516000959C6D /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9001D36E29DF516000959C6D /* FirebaseAnalyticsSwift */; };
 		9001D37129DF527A00959C6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9001D37029DF527A00959C6D /* GoogleService-Info.plist */; };
+		9001D38429E0987E00959C6D /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D38329E0987E00959C6D /* CustomColors.swift */; };
+		9001D38929E09F3200959C6D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D38829E09F3200959C6D /* Login.swift */; };
+		9001D38C29E0AA1300959C6D /* GoldenGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9001D38029DFCDEC00959C6D /* GoldenGrotesque-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9001D38B29E0A9E100959C6D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		9001D33D29DF4BF900959C6D /* Stix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9001D34029DF4BF900959C6D /* StixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StixApp.swift; sourceTree = "<group>"; };
@@ -51,6 +66,8 @@
 		9001D37029DF527A00959C6D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9001D37F29DFCD9500959C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9001D38029DFCDEC00959C6D /* GoldenGrotesque-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoldenGrotesque-Medium.ttf"; sourceTree = "<group>"; };
+		9001D38329E0987E00959C6D /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		9001D38829E09F3200959C6D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				9001D38029DFCDEC00959C6D /* GoldenGrotesque-Medium.ttf */,
-				9001D37F29DFCD9500959C6D /* Info.plist */,
+				9001D38629E09F0A00959C6D /* Views */,
+				9001D38129E0982300959C6D /* Styles */,
 				9001D37229DF719500959C6D /* App Common */,
 				9001D34729DF4BFA00959C6D /* Preview Content */,
 			);
@@ -139,6 +157,8 @@
 		9001D37229DF719500959C6D /* App Common */ = {
 			isa = PBXGroup;
 			children = (
+				9001D38529E098BB00959C6D /* Fonts */,
+				9001D37F29DFCD9500959C6D /* Info.plist */,
 				9001D34029DF4BF900959C6D /* StixApp.swift */,
 				9001D34229DF4BF900959C6D /* ContentView.swift */,
 				9001D34429DF4BFA00959C6D /* Assets.xcassets */,
@@ -146,6 +166,45 @@
 				9001D34629DF4BFA00959C6D /* Stix.entitlements */,
 			);
 			name = "App Common";
+			sourceTree = "<group>";
+		};
+		9001D38129E0982300959C6D /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				9001D38229E0983300959C6D /* Palettes */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		9001D38229E0983300959C6D /* Palettes */ = {
+			isa = PBXGroup;
+			children = (
+				9001D38329E0987E00959C6D /* CustomColors.swift */,
+			);
+			name = Palettes;
+			sourceTree = "<group>";
+		};
+		9001D38529E098BB00959C6D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		9001D38629E09F0A00959C6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9001D38729E09F1700959C6D /* Startup */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9001D38729E09F1700959C6D /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				9001D38829E09F3200959C6D /* Login.swift */,
+			);
+			name = Startup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +217,7 @@
 				9001D33929DF4BF900959C6D /* Sources */,
 				9001D33A29DF4BF900959C6D /* Frameworks */,
 				9001D33B29DF4BF900959C6D /* Resources */,
+				9001D38B29E0A9E100959C6D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -259,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9001D38C29E0AA1300959C6D /* GoldenGrotesque-Medium.ttf in Resources */,
 				9001D34929DF4BFA00959C6D /* Preview Assets.xcassets in Resources */,
 				9001D34529DF4BFA00959C6D /* Assets.xcassets in Resources */,
 				9001D37129DF527A00959C6D /* GoogleService-Info.plist in Resources */,
@@ -287,7 +348,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9001D34329DF4BF900959C6D /* ContentView.swift in Sources */,
+				9001D38429E0987E00959C6D /* CustomColors.swift in Sources */,
 				9001D34129DF4BF900959C6D /* StixApp.swift in Sources */,
+				9001D38929E09F3200959C6D /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
