@@ -27,7 +27,7 @@ struct Login: View {
                          .font(Font.custom("GoldenGrotesque-Medium", size: 72))
                     Spacer()
                 }
-                .padding(.top, 72)
+                .padding(.top, 120)
                 HStack(alignment: .center) {
                     Image(systemName: "envelope.fill")
                         .font(.system(size: 18.0))
