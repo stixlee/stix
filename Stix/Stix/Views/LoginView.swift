@@ -11,6 +11,8 @@ struct LoginView: View {
     @State var username: String = ""
     @State var password: String = ""
     
+    @StateObject private var viewModel = AuthenticationViewModel()
+    
     init(username: String, password: String) {
         self.username = username
         self.password = password
@@ -33,7 +35,7 @@ struct LoginView: View {
                         .font(.system(size: 18.0))
                         .padding(.trailing, 12)
                         .foregroundColor(.primary)
-                    TextField("Email", text: $username)
+                    TextField("Email", text: $viewModel.email)
                         .font(.system(size: 18.0))
                     Spacer()
                 }
@@ -48,7 +50,7 @@ struct LoginView: View {
                         .font(.system(size: 18.0))
                         .padding(.trailing, 12)
                         .foregroundColor(.primary)
-                    SecureField("Password", text: $password)
+                     SecureField("Password", text: $viewModel.password)
                         .font(.system(size: 18.0))
                     Spacer()
                 }
