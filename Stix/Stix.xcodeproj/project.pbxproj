@@ -18,8 +18,9 @@
 		9001D36F29DF516000959C6D /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9001D36E29DF516000959C6D /* FirebaseAnalyticsSwift */; };
 		9001D37129DF527A00959C6D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9001D37029DF527A00959C6D /* GoogleService-Info.plist */; };
 		9001D38429E0987E00959C6D /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D38329E0987E00959C6D /* CustomColors.swift */; };
-		9001D38929E09F3200959C6D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D38829E09F3200959C6D /* Login.swift */; };
+		9001D38929E09F3200959C6D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D38829E09F3200959C6D /* LoginView.swift */; };
 		9001D38C29E0AA1300959C6D /* GoldenGrotesque-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9001D38029DFCDEC00959C6D /* GoldenGrotesque-Medium.ttf */; };
+		9001D38F29E4593200959C6D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9001D38E29E4593200959C6D /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +68,7 @@
 		9001D37F29DFCD9500959C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9001D38029DFCDEC00959C6D /* GoldenGrotesque-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoldenGrotesque-Medium.ttf"; sourceTree = "<group>"; };
 		9001D38329E0987E00959C6D /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
-		9001D38829E09F3200959C6D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		9001D38829E09F3200959C6D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9001D36F29DF516000959C6D /* FirebaseAnalyticsSwift in Frameworks */,
+				9001D38F29E4593200959C6D /* FirebaseAuth in Frameworks */,
 				9001D36D29DF516000959C6D /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +106,7 @@
 				9001D35129DF4BFA00959C6D /* StixTests */,
 				9001D35B29DF4BFA00959C6D /* StixUITests */,
 				9001D33E29DF4BF900959C6D /* Products */,
+				9001D38D29E4593200959C6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,9 +205,16 @@
 		9001D38729E09F1700959C6D /* Startup */ = {
 			isa = PBXGroup;
 			children = (
-				9001D38829E09F3200959C6D /* Login.swift */,
+				9001D38829E09F3200959C6D /* LoginView.swift */,
 			);
 			name = Startup;
+			sourceTree = "<group>";
+		};
+		9001D38D29E4593200959C6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +237,7 @@
 			packageProductDependencies = (
 				9001D36C29DF516000959C6D /* FirebaseAnalytics */,
 				9001D36E29DF516000959C6D /* FirebaseAnalyticsSwift */,
+				9001D38E29E4593200959C6D /* FirebaseAuth */,
 			);
 			productName = Stix;
 			productReference = 9001D33D29DF4BF900959C6D /* Stix.app */;
@@ -350,7 +361,7 @@
 				9001D34329DF4BF900959C6D /* ContentView.swift in Sources */,
 				9001D38429E0987E00959C6D /* CustomColors.swift in Sources */,
 				9001D34129DF4BF900959C6D /* StixApp.swift in Sources */,
-				9001D38929E09F3200959C6D /* Login.swift in Sources */,
+				9001D38929E09F3200959C6D /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,6 +735,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9001D36B29DF516000959C6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalyticsSwift;
+		};
+		9001D38E29E4593200959C6D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9001D36B29DF516000959C6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

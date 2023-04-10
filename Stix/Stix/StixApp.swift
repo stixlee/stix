@@ -14,7 +14,7 @@ struct StixApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            Login(username: "", password: "")
+            LoginView(username: "", password: "")
         }
     }
 }
