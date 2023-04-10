@@ -8,17 +8,9 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State var username: String = ""
-    @State var password: String = ""
     
     @StateObject private var viewModel = AuthenticationViewModel()
-    
-    init(username: String, password: String) {
-        self.username = username
-        self.password = password
         
-        UIFont.familyNames.forEach{ print($0); UIFont.fontNames(forFamilyName: $0).forEach{ print("  ", $0) } }
-    }
     var body: some View {
         ZStack {
             Color.primaryBackground
@@ -61,7 +53,9 @@ struct LoginView: View {
                     .background(Color.primary)
                     .padding([.leading, .trailing], 48)
                 HStack  {
-                    Button(action: {}) {
+                    Button(action: {
+                        viewModel.login()
+                    }) {
                         Text("SIGN IN")
                             .frame(maxWidth: .infinity, alignment: .center)
                             .padding()
@@ -106,6 +100,6 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView(username: "", password: "")
+        LoginView()
     }
 }
