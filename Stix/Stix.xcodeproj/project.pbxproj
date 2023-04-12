@@ -26,6 +26,7 @@
 		9001D39829E4850D00959C6D /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D39729E4850D00959C6D /* AuthenticationService.swift */; };
 		9001D39A29E4853900959C6D /* AbstractStatelessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D39929E4853900959C6D /* AbstractStatelessService.swift */; };
 		9001D39D29E49A6800959C6D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D39C29E49A6800959C6D /* UserModel.swift */; };
+		9001D3A529E76FDA00959C6D /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001D3A429E76FDA00959C6D /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		9001D39729E4850D00959C6D /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		9001D39929E4853900959C6D /* AbstractStatelessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractStatelessService.swift; sourceTree = "<group>"; };
 		9001D39C29E49A6800959C6D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		9001D3A429E76FDA00959C6D /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		9001D33F29DF4BF900959C6D /* Stix */ = {
 			isa = PBXGroup;
 			children = (
+				9001D39E29E7694900959C6D /* Extensions */,
 				9001D39B29E49A5300959C6D /* Models */,
 				9001D39629E484CE00959C6D /* Services */,
 				9001D39329E45B2700959C6D /* Protocols */,
@@ -211,6 +214,7 @@
 		9001D38629E09F0A00959C6D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9001D3A329E76FA900959C6D /* Utility Views */,
 				9001D38729E09F1700959C6D /* Startup */,
 			);
 			path = Views;
@@ -262,6 +266,21 @@
 				9001D39C29E49A6800959C6D /* UserModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9001D39E29E7694900959C6D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9001D3A329E76FA900959C6D /* Utility Views */ = {
+			isa = PBXGroup;
+			children = (
+				9001D3A429E76FDA00959C6D /* RemoteImage.swift */,
+			);
+			name = "Utility Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -408,6 +427,7 @@
 				9001D34329DF4BF900959C6D /* ContentView.swift in Sources */,
 				9001D39229E45AEC00959C6D /* AuthenticationViewModel.swift in Sources */,
 				9001D38429E0987E00959C6D /* CustomColors.swift in Sources */,
+				9001D3A529E76FDA00959C6D /* RemoteImage.swift in Sources */,
 				9001D34129DF4BF900959C6D /* StixApp.swift in Sources */,
 				9001D39529E45B4500959C6D /* AbstractViewModel.swift in Sources */,
 				9001D39D29E49A6800959C6D /* UserModel.swift in Sources */,
